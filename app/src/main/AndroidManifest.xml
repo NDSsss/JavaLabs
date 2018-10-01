@@ -19,6 +19,9 @@
         <activity android:name=".Lab1">
 
         </activity>
+        <activity android:name=".Lab2">
+
+        </activity>
     </application>
 
 </manifest>
