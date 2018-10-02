@@ -15,7 +15,7 @@ public class Lab2 extends Activity {
         String commonSallary="";
         commonSallary += "Работник 1: "+fooCorporation.getSallary(250,35)+"\n";
         commonSallary += "Работник 2: "+fooCorporation.getSallary(330,55)+"\n";
-        commonSallary += "Работник 3: "+fooCorporation.getSallary(400,73)+"\n"git;
+        commonSallary += "Работник 3: "+fooCorporation.getSallary(400,73)+"\n";
         TextView etAnswer = (TextView) findViewById(R.id.tw_lab2_answer);
         etAnswer.setText(commonSallary);
     }
