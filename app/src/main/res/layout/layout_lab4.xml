@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Номер бита"/>
+    <EditText
+        android:id="@+id/et_lab4_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Значение бита"/>
+    <EditText
+        android:id="@+id/et_lab4_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"/>
+    <Button
+        android:id="@+id/btn_lab4_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Заменить"/>
+    <TextView
+        android:id="@+id/tv_lab4_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

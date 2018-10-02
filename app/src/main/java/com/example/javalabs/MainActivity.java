@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnLab1;
     Button btnLab2;
     Button btnLab3;
+    Button btnLab4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnLab1 = (Button) findViewById(R.id.btnLab1);
         btnLab2 = (Button) findViewById(R.id.btnLab2);
         btnLab3 = (Button) findViewById(R.id.btnLab3);
+        btnLab4 = (Button) findViewById(R.id.btnLab4);
         btnLab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         btnLab3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onClickLab1(v);
+            }
+        });
+        btnLab4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onClickLab1(v);
@@ -52,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btnLab3:
                 intent = new Intent(this,Lab3.class);
+                startActivity(intent);
+                break;
+            case R.id.btnLab4:
+                intent = new Intent(this,Lab4.class);
                 startActivity(intent);
                 break;
         }
